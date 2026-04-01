@@ -5,6 +5,10 @@ LoRA fine-tuning for SVG generation (DL Spring 2026)
 The dataset (train.csv and test.csv) is from the Kaggle competition.
 Please download it and place it in the project root directory.
 
+## Model Weights
+The LoRA fine-tuned weights can be downloaded here:
+https://drive.google.com/drive/folders/1QO4BBcEzRFJ7WbVVf0LEqFehLSAK0yl2
+
 ## Training:
 1.Run final_training.ipynb to train the LoRA model.
 2.The trained weights will be saved locally.
@@ -15,3 +19,4 @@ Please download it and place it in the project root directory.
 
 ```python
 LORA_PATH = "./your_model_path"
+
